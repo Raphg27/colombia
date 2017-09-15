@@ -1,21 +1,113 @@
+
+/** Universal **/
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  border-radius: 0 !important;
+  border:none !important;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+/** Header **/
+
 nav {
   background-image: url("../images/navbar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color:white;
-
-
+  vertical-align: bottom;
 }
 
-
-.navbar-header p {
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-default .navbar-header  p {
+  color: #fff;
   font-weight: bold;
+}
+
+.navbar-text {
+  margin-top: 2rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+margin-top: 1rem;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+color: #fff;
+font-weight: bold;
 }
 
 .navbar-header img {
   padding: 0.7rem 0;
 }
-html {
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
+
+/** Banner **/
+
+.banner img {
+  width: 100%;
+}
+
+
+/** Main **/
+
+.main .text {
+    padding: 2.5rem;
+    text-align: justify;
+}
+
+.main .text p {
+  padding-bottom: 0.7rem;
+  line-height: normal;
+}
+
+#medellin {
+  margin-right: 1.5rem;
+}
+
+#teamo {
+    margin-left: 1.5rem;
+}
+
+.quote {
+  background-image: url("../images/grass-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 12rem;
+  font-size: 1.35rem;
+  text-align: center;
+
+  line-height: 3rem;
+}
+
+.quote p {
+  padding: 2rem;
+}
+
+
+/** Footer **/
+footer {
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  padding: 2rem;
+  word-spacing: 0.7rem;
+  text-align: center;
+}
+
+footer a {
+  color:inherit;
 }
