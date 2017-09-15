@@ -1,0 +1,21 @@
+nav {
+  background-image: url("../images/navbar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+
+}
+
+
+.navbar-header p {
+  font-weight: bold;
+}
+
+.navbar-header img {
+  padding: 0.7rem 0;
+}
+html {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
