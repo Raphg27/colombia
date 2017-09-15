@@ -87,7 +87,7 @@ font-weight: bold;
   min-height: 12rem;
   font-size: 1.35rem;
   text-align: center;
-
+  z-index: 100;
   line-height: 3rem;
 }
 
