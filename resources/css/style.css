@@ -146,10 +146,10 @@ footer a {
 
 
 .team div {
-  margin: 0.7rem 0;
+  margin: 0.7rem auto;
 
 }
 
-.team .container {
-  margin-left: 4rem;
+.team.container {
+  margin: 0 auto;
 }
