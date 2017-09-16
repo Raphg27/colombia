@@ -150,3 +150,16 @@ footer a {
   margin: 0.7rem auto;
   text-align: center;
 }
+
+
+
+@media only screen and (max-width:720px) {
+
+  .team div {
+    margin: 0.7rem auto;
+    text-align: center;
+    width: 100%;
+  }
+
+
+}
