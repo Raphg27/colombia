@@ -142,14 +142,11 @@ footer a {
   max-width: 200px;
   text-align: center;
   padding: 0.7rem;
+  margin:auto;
 }
 
 
 .team div {
   margin: 0.7rem auto;
-
-}
-
-.team.container {
-  margin: 0 auto;
+  text-align: center;
 }
