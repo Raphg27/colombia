@@ -48,6 +48,11 @@ color: #fff;
 font-weight: bold;
 }
 
+
+.navbar-default .navbar-nav>li>a:visited {
+color: #fff;
+}
+
 .navbar-header img {
   padding: 0.7rem 0;
 }
@@ -110,4 +115,21 @@ footer p {
 
 footer a {
   color:inherit;
+}
+
+
+
+
+/** TEAM PAGE **/
+
+/** Team **/
+
+.col-md-3 {
+  margin: auto;
+}
+
+.col-md-3 p  {
+  background-color: black;
+  color:white;
+    text-align: center;
 }
