@@ -163,3 +163,66 @@ footer a {
 
 
 }
+
+
+
+
+/** DONATE PAGE **/
+
+/** Banner-donate **/
+
+
+.banner-donate {
+  display: flex;
+}
+
+.banner-donate.team3 {
+  width: 60%;
+}
+
+.banner-donate.team3 img {
+  width: 100%;
+
+}
+
+.banner-donate.flag {
+  background-image: url("../images/flag.jpg");
+  font-weight: bold;
+  text-align: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+
+.banner-donate.flag h1 {
+  padding-top: 3rem;
+  line-height: normal;
+  font-size: 4rem;
+}
+
+.banner-donate.flag h2 {
+
+  color:white;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+
+.banner-donate.flag h2:hover {
+  color:lightgrey;
+  text-decoration: none;
+}
+
+.banner-donate.flag a {
+  text-decoration: none;
+  margin-top: 4.5rem;
+}
+
+.banner-donate.flag a:hover {
+  text-decoration: none;
+}
+
+#logoz {
+  width: auto;
+  margin-bottom: 4.5rem;
+}
