@@ -187,6 +187,8 @@ footer a {
 
 .banner-donate.flag {
   background-image: url("../images/flag.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-weight: bold;
   text-align: center;
   flex-direction: column;
@@ -194,32 +196,29 @@ footer a {
 }
 
 
-.banner-donate.flag h1 {
+.banner-donate.women {
   padding-top: 3rem;
   line-height: normal;
   font-size: 4rem;
-}
-
-.banner-donate.flag h2 {
-
-  color:white;
-  font-size: 3rem;
-  text-decoration: none;
+  margin: 0 auto;
 }
 
 
-.banner-donate.flag h2:hover {
-  color:lightgrey;
-  text-decoration: none;
+.banner-donate.now {
+  margin: 0 auto;
 }
 
-.banner-donate.flag a {
+.banner-donate.now a {
   text-decoration: none;
   margin-top: 4.5rem;
+  color: white;
+  font-size: 3rem;
 }
 
-.banner-donate.flag a:hover {
+
+.banner-donate.now a:hover {
   text-decoration: none;
+  color:lightgrey;
 }
 
 #logoz {
