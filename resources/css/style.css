@@ -176,16 +176,16 @@ footer a {
   display: flex;
 }
 
-.banner-donate.team3 {
+.team3 {
   width: 60%;
 }
 
-.banner-donate.team3 img {
+.team3 img {
   width: 100%;
 
 }
 
-.banner-donate.flag {
+.flag {
   background-image: url("../images/flag.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,35 +193,73 @@ footer a {
   text-align: center;
   flex-direction: column;
   width: 40%;
+  display: flex;
+  justify-content: space-around;
 }
 
 
-.banner-donate.women {
-  padding-top: 3rem;
+.women {
   line-height: normal;
   font-size: 4rem;
   margin: 0 auto;
 }
 
 
-.banner-donate.now {
+.now {
   margin: 0 auto;
+
 }
 
-.banner-donate.now a {
+.now a {
   text-decoration: none;
-  margin-top: 4.5rem;
   color: white;
   font-size: 3rem;
 }
 
 
-.banner-donate.now a:hover {
+.now a:hover {
   text-decoration: none;
   color:lightgrey;
 }
 
 #logoz {
   width: auto;
-  margin-bottom: 4.5rem;
+  margin-bottom: 6rem;
+
+}
+
+@media only screen and (max-width:750px) {
+
+.women {
+    font-size: 1.2rem;
+  }
+
+.now a {
+  font-size: 1rem;
+  color:inherit;
+}
+
+.banner-donate {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+
+}
+
+.team3 {
+  width: 100%;
+}
+
+.flag {
+  width: 100%;
+  padding: 2rem;
+}
+
+#logoz {
+  width: auto;
+  margin-bottom: 1rem;
+
+}
+
+
 }
