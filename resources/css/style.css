@@ -82,10 +82,14 @@ color: #fff;
 
 #medellin {
   margin-right: 1.5rem;
+
+
 }
 
 #teamo {
     margin-left: 1.5rem;
+
+
 }
 
 .quote {
@@ -306,5 +310,22 @@ footer a {
 
 }
 
+#medellin {
+    width: 100%;
+}
+
+#teamo {
+    width: 100%;
+}
+
+#league {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#plane {
+    width: 100%;
+    margin-bottom: 1rem;
+}
 
 }
