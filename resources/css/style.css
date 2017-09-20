@@ -70,6 +70,11 @@ color: #fff;
 
 /** Main **/
 
+.main {
+  display: flex;
+}
+
+
 .main .text {
     padding: 2.5rem;
     text-align: justify;
@@ -102,6 +107,7 @@ color: #fff;
   text-align: center;
   z-index: 100;
   line-height: 3rem;
+  display: flex;
 }
 
 .quote p {
@@ -278,6 +284,14 @@ footer a {
 }
 /** RESPONSIVE **/
 @media only screen and (max-width:750px) {
+
+.navbar-text {
+  margin-top:0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  margin-top: 0;
+}
 
 .women {
     font-size: 1.2rem;
